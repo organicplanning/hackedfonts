@@ -23,8 +23,7 @@ some modified fonts for personal use
   - check the box "allow selection of variable width fonts" (MobaXterm doesn't recognise some monospace fonts as such, compare e.g. *Skyhook Mono*)
   - click the "change" button
   - now select "Unifont", size 12  
- 
-       
+  
  
 - added a dotted zero to *Lekton* http://luc.devroye.org/fonts-43679.html
 
@@ -36,3 +35,16 @@ some modified fonts for personal use
 
   *IBM Plex Mono* (available on https://github.com/IBM/plex) is a nice, modern and complete font, however for small sizes I prefer those old fonts I've modded.
   
+  - IBM PS/2 thin2 has smaller numerals, like CamingoCode and some other fonts. It has a dotted zero.
+  - IBM PS/2 thin4 is similar, more conventional, but reads quite well. The pipe symbol is "broken bar" in both, maybe I'll change that later https://en.wikipedia.org/wiki/Vertical_bar#Solid_vertical_bar_vs_broken_bar
+  - IBM ISO 9 is larger (comparable to Bitstream Vera Sans Mono 11) and has a dotted zero.
+
+
+
+#### sizes
+
+| font			       | rough reference size        | In
+| IBM ISO 9 (select 12pt)      | Bitstream Vera Sans Mono 11 |
+| IBM PS2 thin2  (select 12pt) | Bitstream Vera Sans Mono 10 |
+| IBM PS2 thin4  (select 12pt) | Bitstream Vera Sans Mono 10 |
+| GNU Unifont (select 12pt)    | Ubuntu Mono 12              |
