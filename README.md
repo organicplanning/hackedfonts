@@ -40,15 +40,16 @@ some modified fonts for my personal use
 - now converted to "real monospace" with ttx from python pip fonttools 
   in order to be directly selectable in MobaXTerm et al (w/o detour "allow selection of variable pitch fonts")
 
-### Px series
-- from http://int10h.org/oldschool-pc-fonts/
-- added Euro signs to **IBM ISO9**, **IBM PS/2 thin2** and **IBM PS/2 thin4** 
--  These are bitmap fonts in TTF format and are only good at 12pt
-- I believe these are still superior to IBM Plex Mono https://github.com/IBM/plex, especially at small sizes. 
-  
-  - IBM PS/2 thin2 has smaller numerals, like CamingoCode and some other fonts. It has a dotted zero.
-  - IBM PS/2 thin4 is similar, more conventional, but reads quite well. The pipe symbol is "broken bar" in both, maybe I'll change that later https://en.wikipedia.org/wiki/Vertical_bar#Solid_vertical_bar_vs_broken_bar
-  - IBM ISO 9 is larger (comparable to Bitstream Vera Sans Mono 11) and has a dotted zero.
+### [Px series](http://int10h.org/oldschool-pc-fonts/) vintage IBM fonts
+- I believe these are still superior to [IBM Plex Mono](https://github.com/IBM/plex), especially at small sizes. 
+- These are pixel sharp bitmap fonts in TTF format and are only good at 12pt
+- modification done: added Euro signs to **IBM ISO9**, **IBM PS/2 thin2** and **IBM PS/2 thin4** 
+- intended modification for later: "unbreak" the pipe symbol
+
+*characteristics*
+- IBM PS/2 thin2 has smaller numerals, (compare e.g. CamingoCode) and a dotted zero.
+- IBM PS/2 thin4 has conventinally sized numerals and slashed zero. 
+- IBM ISO 9 is somewhat larger and has a dotted zero.
 
 ### Serif Monospace
 
@@ -63,10 +64,10 @@ Px437 Compaq 8x16
 
 #### font sizes for comparison
 
-font			     | rough reference size        
------------------------------------------------------------
-Px437 IBM ISO 9 (select 12pt)      | Bitstream Vera Sans Mono 11 
-Px437 IBM PS2 thin2  (select 12pt) | Bitstream Vera Sans Mono 10 
-Px437 IBM PS2 thin4  (select 12pt) | Bitstream Vera Sans Mono 10 
-GNU Unifont (select 12pt)    | Ubuntu Mono 12              
-Px437 Compaq 8x16	       | PT Mono 10-11             	
+| font @ "12px" 	     | rough reference size         | 
+|-----------------------------------------------------------|
+|Px437 IBM ISO 9   | Bitstream Vera Sans Mono 11            |
+|Px437 IBM PS2 thin2  | Bitstream Vera Sans Mono 10         |
+|Px437 IBM PS2 thin4  |  Bitstream Vera Sans Mono 10        |
+| GNU Unifont     | Ubuntu Mono 12                          |
+| Px437 Compaq 8x16       | PT Mono 10-11                   |
