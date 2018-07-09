@@ -64,8 +64,9 @@ Px437 Compaq 8x16
 
 #### font sizes for comparison
 
+
 | font @ "12px"        | rough reference size            | 
-| ------------------------------------------------------ |
+| -------------------- | ------------------------------- |
 | Px437 IBM ISO    9   | Bitstream Vera Sans Mono 11     |
 | Px437 IBM PS2 thin2  | Bitstream Vera Sans Mono 10     |
 | Px437 IBM PS2 thin4  |  Bitstream Vera Sans Mono 10    |
