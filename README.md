@@ -41,7 +41,10 @@ some modified fonts for my personal use
   - IBM PS/2 thin4 is similar, more conventional, but reads quite well. The pipe symbol is "broken bar" in both, maybe I'll change that later https://en.wikipedia.org/wiki/Vertical_bar#Solid_vertical_bar_vs_broken_bar
   - IBM ISO 9 is larger (comparable to Bitstream Vera Sans Mono 11) and has a dotted zero.
 
+### Serif Monospace
 
+Px437 Compaq 8x16
+- added Euro sign and some turkish characters: dotless i, capital dotted I, soft g
 
 #### sizes
 
