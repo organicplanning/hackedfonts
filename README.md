@@ -15,11 +15,14 @@ some modified fonts for my personal use
 #### GNU Unifont 
 - GNU Unifont is a bitmap font, only good at 12Px. On the original page, Unix Bitmap formats are also available. I haven't modified these.
 - looks like it inspired commercial font **PragmataPro**, although I haven't seen it acknowledged ... 
-  this would be a GPL issue anyway, especially as it is one of the most expensive fonts available
-  and the "author" even tried to raise money to "make it public domain.
-- Compared with GNU Unifont, Pragmata Pro has better visibility for the i-dot, quite comparable with Luculent
+  this would be a real GPL issue anyway, especially as it is one of the most expensive fonts available
+  and the "author" even tried to raise money to "make it public domain."
+- He'll probably get away with it because he stretched the font vertically by one pixel, so it's "really different"
+- Compared with GNU Unifont, Pragmata Pro has better visibility for the i-dot, quite comparable with Luculent-
+- Pragmata Pro has real merit for adding a variety of sharp pixel sizes to the 12px-only Unifont.
 - Things I prefer with Unifont to Pragmata Pro is the larger line spacing and the wider (!) range of Unicode characters
   as well as for the freedom to share it.
+- Iosevka is an agreeable Pragmata Pro replacement for antialiased rendering.
 - Probably to extreme size / range of characters, conversion to "real monospace" with python fonttools ttx has failed so far.
 - *To use GNU Unifont with MobaXterm* (Windows)
   - right-click on an open terminal window, 
@@ -32,7 +35,7 @@ some modified fonts for my personal use
 
 #### Lekton
 - http://luc.devroye.org/fonts-43679.html
-- has a similar feel to **Ubuntu Mono** or maybe **Share Tech Mono** and ** Klartext Mono*
+- has a similar feel to **Ubuntu Mono** or maybe **Share Tech Mono** and **Klartext Mono**
 - I've added a dotted zero.
  
 #### Skyhook
