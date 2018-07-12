@@ -28,26 +28,24 @@ some modified monospace fonts for my personal use
 | Skyhook Mono         | Tamsyn 10x20     | slashed | futuristic |                  
 
 #### [GNU Unifont](http://www.unifoundry.com/unifont.html) 
-- GNU Unifont is a bitmap font, only good at 12Px. On the original page, Unix Bitmap formats are also available. I haven't modified these.
+- GNU Unifont is a bitmap font with wide Unicode coverage, only good at (nominally) 12px. 
+- I've added a slashed zero.
+- On the original page, Unix Bitmap formats are also available. I haven't modified these yet.
+- Probably to *extreme range of characters*, conversion to "real monospace" with python fonttools ttx has failed so far.
+- this is why it has to be selected as a variable pitch font, see below for howto.
+ 
+Trivia
 - looks like it inspired commercial font **PragmataPro**, although I haven't seen it acknowledged ... 
   this would be a real GPL issue anyway, especially as it is one of the most expensive fonts available
   and the "author" even tried to raise money to "make it public domain."
 - He'll probably get away with it because he stretched the font vertically by one pixel, so it's "really different". Actually, it feels more "designed" then.
 - Compared with GNU Unifont, Pragmata Pro has better visibility for the i-dot, quite comparable with [Luculent](http://eastfarthing.com/luculent/).
-
 - Pragmata Pro has real merit for adding a variety of sharp pixel sizes to the 12px-only Unifont.
 - Things I prefer with Unifont to Pragmata Pro is the larger line spacing and the wider (!) range of Unicode characters
-  as well as for the freedom to share it.
+  as well as the freedom to share it.
 - Iosevka is an agreeable Pragmata Pro replacement for antialiased rendering.
-- Liberation Mono feels similar to GNU Unifont
-- Probably to extreme size / range of characters, conversion to "real monospace" with python fonttools ttx has failed so far.
-- *To use GNU Unifont with MobaXterm* (Windows)
-  - right-click on an open terminal window, 
-  - select "change terminal settings" 
-  - click on "Window/Apperance"
-  - check the box "allow selection of variable width fonts"
-  - click the "change" button
-  - now select "Unifont", size 12  
+- Liberation Mono is a little broader, but also feels similar to GNU Unifont
+
    
 
 ### [Envy Code B 10 ttf](https://damieng.com/typography/envy-code-b)
@@ -99,3 +97,18 @@ Px437 ToshibaLCD
 - Px437 IBM Thin1 (not yet modified) 
 - PT Mono (quite complete already, wide range of pixel sharp small sizes)
 
+### HOWTO: Using "variable width fonts" in Putty / MobaXTerm
+
+#### workaround
+due to missing flags, some fonts are **not listed as monospace fonts**, meaning they are not visible in normal selection
+
+- **right-click on an open terminal window** 
+- select "change terminal settings" / "Window/Apperance"
+- check the box **"allow selection of variable width fonts"**
+- click the "change" button
+- now, all available fonts are listed
+
+#### correction
+
+- The missing flags could possibly corrected with **ttx** from *python fonttools*
+- After correction, those fonts are also selectable in [Xshell](https://www.netsarang.com/products/xsh_overview.html), which doesn't offer the workaround.
