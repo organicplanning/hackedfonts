@@ -48,7 +48,6 @@ some modified monospace fonts for my personal use
 - [Iosevka](https://be5invis.github.io/Iosevka/) is an agreeable Pragmata Pro replacement for antialiased rendering.
 - [Liberation Mono](https://www.fontsquirrel.com/fonts/Liberation-Mono) by RedHat is a little broader, but has a similar feel to GNU Unifont.
 
-
    
 
 #### [Envy Code B 10 ttf](https://damieng.com/typography/envy-code-b)
@@ -115,18 +114,25 @@ due to missing flags, some fonts are **not listed as monospace fonts**, meaning 
 #### other sans-serif monospace pixel suggestions
 
 - [Tamsyn](http://www.fial.com/~scott/tamsyn-font/)
-  - Tamsyn 10x20 has that futuristic "square" feel of quadra-style fonts like [White Rabbit](https://www.dafont.com/white-rabbit.font), [Earth 2073](https://www.dafont.com/earth-2073.font) or [Otonokizaka Mono II](https://fontstruct.com/fontstructions/show/1399210/otonokizaka-std-ii-1) or maybe Lekton but while being pixel sharp. 
+  - Tamsyn 10x20 has that futuristic "square" feel of quadra-style fonts like [White Rabbit](https://www.dafont.com/white-rabbit.font), [Earth 2073](https://www.dafont.com/earth-2073.font) or [Otonokizaka Mono II](https://fontstruct.com/fontstructions/show/1399210/otonokizaka-std-ii-1) or maybe  [Lekton](http://luc.devroye.org/fonts-43679.html) - but it is pixel sharp.
     The jagged "s" might feel nervous or energetic. Try it in pure green on black...
   - Tamsyn 7x13 is a quite small font that still feels relaxed.
-- [Raize](http://www.raize.com/DevTools/Tools/RzFont.asp). I like 12px best. Can feel a little edgy, which goes away in low contrast settings.
-- [Dina](http://www.dcmembers.com/jibsen/download/61/) quite lively in all sizes. 
+- [Raize](http://www.raize.com/DevTools/Tools/RzFont.asp). 
+  - 12px is a *good standard font* that can be replaced with *IBM ISO 9* for less edge.
+  - 11px is small, broad and edgy, just like [Triskeline](http://www.netalive.org/tinkering/triskweline/) is small, broad and round.
+- [Dina](http://www.dcmembers.com/jibsen/download/61/) 
   - Dina 9 is nearly equivalent to Envy Code B 10 TTF modified above, has less line spacing and maybe feels a little more joyful.
   - Dina 8 feels more relaxed than Tamsyn 7x14. 
-- [Triskeline](http://www.netalive.org/tinkering/triskweline/) quite small, calm and broad
-- [Luculent](http://eastfarthing.com/luculent/) is quite narrow, has a large dotted i and a wide range of characters. There are individual fonts for each pixel size.
-  - Luculent 14 is one of the biggest fonts that still have single pixel width, compare PT mono 13. In this size, it reminds me of plotter/stencil fonts.
-  - Luculent 7 is still quite readable
-- [Sheldon narrow](https://web.archive.org/web/20170203072652/http://tobiasjung.name/profont/index.php) (a ProFont replacement by Sheldon Simms) and the more widely spaced Sheldon. 
+  - Dina 6 is broader than Luculent 7. Size comparable to Sheldon / Sheldon Narrow.
+- [Triskweline](http://www.netalive.org/tinkering/triskweline/) quite small, calm and broad. 
+- [Luculent](http://eastfarthing.com/luculent/) is quite narrow, has a large dotted i and a wide range of characters. There are individual fonts for each pixel size. The zero is "backslashed" ...
+  - Luculent 14 has single pixel width stems, which is unusual for that size and reminds me of plotter and DIN stencil fonts.
+  - Luculent 12 is fancy but readable, not unlike Ubuntu Mono 13 
+  - Luculent 11 is a size that I always come back to.
+  - Luculent 9/10 is in same territory as Envy Code B 10px and Dina 9, but more rounded and with large i-dot
+  - Luculent 7 is surprisingly readable for the size (smaller than Dina 6) though feeling a little strained.
+- [Sheldon Narrow](https://web.archive.org/web/20170203072652/http://tobiasjung.name/profont/index.php) (a ProFont replacement by Sheldon Simms) and especially the more widely spaced **Sheldon** are very small but quite readable and good for side-by-side comparison of code.
+- [zeev-peep](http://zevv.nl/play/code/zevv-peep/), a beautiful font and good to read font similar to Luculent but lacking character range. Maybe I should modify it.
 
 #### other serif monospace suggestions
 
