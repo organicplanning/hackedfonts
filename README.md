@@ -77,18 +77,6 @@ some modified monospace fonts for my personal use
 - IBM now offers [IBM Plex Mono](https://github.com/IBM/plex), but this is good only from 14pt upwards. Currently I still prefer the old ones.
 
 
-#### other sans-serif monospace pixel font suggestions
-
-- [Tamsyn](http://www.fial.com/~scott/tamsyn-font/)
-  - Tamsyn 10x20 has that futuristic "square" feel of quadra-style fonts like [White Rabbit](https://www.dafont.com/white-rabbit.font], [Earth 2073](https://www.dafont.com/earth-2073.font) or [Otonokizaka Mono II](https://fontstruct.com/fontstructions/show/1399210/otonokizaka-std-ii-1) or maybe Lekton but while being pixel sharp. 
-    The jagged "s" might feel nervous or energetic. 
-  - Tamsyn 7x14 is quite comparable with Dina 8 but feels more strained.
-  - Tamsyn 7x13 is a quite small font that still feels relaxed
-- [Raize](http://www.raize.com/DevTools/Tools/RzFont.asp). I like 12px best. Can feel a little edgy, which goes away in low contrast settings.
-- [Dina](http://www.dcmembers.com/jibsen/download/61/) quite lively in all sizes
-- [Triskeline](http://www.netalive.org/tinkering/triskweline/) quite small, calm and broad
-- [Luculent](http://eastfarthing.com/luculent/) is quite narrow, has a large dotted i and a wide range of characters, as well as sizes between 7 and 14px.
-- [Sheldon narrow](https://web.archive.org/web/20170203072652/http://tobiasjung.name/profont/index.php) (a ProFont replacement by Sheldon Simms) and the more widely spaced Sheldon. 
 
 ### vintage serif monospace fonts
 - pixel sharp bitmap fonts as .ttf files, only useable at 12pt
@@ -101,19 +89,7 @@ some modified monospace fonts for my personal use
 #### Px437 ToshibaLCD
 - slim and very clear
 
-#### other serif monospace suggestions
-
-- [PT Mono](https://www.fontsquirrel.com/fonts/list/foundry/paratype) by Paratype (includes cyrillic and greek, has wide range of pixel sharp small sizes)
-- [Px437 IBM Thin1](http://int10h.org/oldschool-pc-fonts/) (relaxed feel, not yet modified) 
-- [Go Mono](https://blog.golang.org/go-fonts) (quite slim, needs anti-aliasing)
-- [Nimbus Mono](https://www.fontsquirrel.com/fonts/nimbus-mono) (somehow, this one calms me down)
-- [Selectric](https://www.dafont.com/selectric.font) by Paradox (has nonslashed but distinguishable zero)
-- [Damien Typewriter](http://2ttf.com/UjZ3WtVC) by DamienG (the Comic Sans of terminal fonts...)
-- various **vintage typewriter fonts** by [Lukas Krakora](https://www.dafont.com/lukas-krakora.d1281) and [Peter Wiegel](https://www.dafont.com/peter-wiegel.d689)
-  e.g. [Erica Type](https://www.1001fonts.com/erica-type-font.html) and [Oceanside Typewriter](https://www.dafont.com/oceanside-typewriter.font)
-
-
-  
+ 
 
 ### HOWTO: Using "variable width fonts" in Putty / MobaXTerm
 
@@ -130,3 +106,36 @@ due to missing flags, some fonts are **not listed as monospace fonts**, meaning 
 
 - The missing flags could possibly corrected with **ttx** from *python fonttools*
 - After correction, those fonts are also selectable in [Xshell](https://www.netsarang.com/products/xsh_overview.html), which doesn't offer the workaround.
+
+
+### font recommendations
+
+*beside of what is available here* (because I modified it), **I'd like to make you aware of the following fonts**
+
+#### other sans-serif monospace pixel suggestions
+
+- [Tamsyn](http://www.fial.com/~scott/tamsyn-font/)
+  - Tamsyn 10x20 has that futuristic "square" feel of quadra-style fonts like [White Rabbit](https://www.dafont.com/white-rabbit.font), [Earth 2073](https://www.dafont.com/earth-2073.font) or [Otonokizaka Mono II](https://fontstruct.com/fontstructions/show/1399210/otonokizaka-std-ii-1) or maybe Lekton but while being pixel sharp. 
+    The jagged "s" might feel nervous or energetic. Try it in pure green on black...
+  - Tamsyn 7x13 is a quite small font that still feels relaxed.
+- [Raize](http://www.raize.com/DevTools/Tools/RzFont.asp). I like 12px best. Can feel a little edgy, which goes away in low contrast settings.
+- [Dina](http://www.dcmembers.com/jibsen/download/61/) quite lively in all sizes. 
+  - Dina 9 is nearly equivalent to Envy Code B 10 TTF modified above, has less line spacing and maybe feels a little more joyful.
+  - Dina 8 feels more relaxed than Tamsyn 7x14. 
+- [Triskeline](http://www.netalive.org/tinkering/triskweline/) quite small, calm and broad
+- [Luculent](http://eastfarthing.com/luculent/) is quite narrow, has a large dotted i and a wide range of characters. There are individual fonts for each pixel size.
+  - Luculent 14 is one of the biggest fonts that still have single pixel width, compare PT mono 13. In this size, it reminds me of plotter/stencil fonts.
+  - Luculent 7 is still quite readable
+- [Sheldon narrow](https://web.archive.org/web/20170203072652/http://tobiasjung.name/profont/index.php) (a ProFont replacement by Sheldon Simms) and the more widely spaced Sheldon. 
+
+#### other serif monospace suggestions
+
+- [PT Mono](https://www.fontsquirrel.com/fonts/list/foundry/paratype) by Paratype (includes cyrillic and greek, has wide range of pixel sharp small sizes)
+- [Px437 IBM Thin1](http://int10h.org/oldschool-pc-fonts/) (relaxed feel, not yet modified) 
+- [Go Mono](https://blog.golang.org/go-fonts) (quite slim, needs anti-aliasing)
+- [Nimbus Mono](https://www.fontsquirrel.com/fonts/nimbus-mono) (somehow, this one calms me down)
+- [Selectric](https://www.dafont.com/selectric.font) by Paradox (has nonslashed but distinguishable zero)
+- [Damien Typewriter](http://2ttf.com/UjZ3WtVC) by DamienG (the Comic Sans of terminal fonts...)
+- various **vintage typewriter fonts** by [Lukas Krakora](https://www.dafont.com/lukas-krakora.d1281) and [Peter Wiegel](https://www.dafont.com/peter-wiegel.d689)
+  e.g. [Erica Type](https://www.1001fonts.com/erica-type-font.html) and [Oceanside Typewriter](https://www.dafont.com/oceanside-typewriter.font)
+
