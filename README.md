@@ -27,18 +27,24 @@ some modified monospace fonts for my personal use
   - now select "Unifont", size 12  
    
 
+### [Envy Code B 10 ttf](https://damieng.com/typography/envy-code-b)
+
+- a bit like [Dina 9](http://www.dcmembers.com/jibsen/download/61/)
+  but with larger line spacing which can ce good sometimes.
+- now added turkish characters dotless i, capital dotted I and soft g
+
 #### [Lekton](http://luc.devroye.org/fonts-43679.html)
 - has a similar feel to **Ubuntu Mono** or maybe **Share Tech Mono** and **Klartext Mono**
-- now with dotted zero.
-- to be done: set correct monospace flag
+- now with dotted zero in order to distinguish letter oh and number zero
+- still to be done: setting correct monospace flag with ttx
  
 #### [Skyhook Mono Regular](https://www.myfonts.com/fonts/fontom-type/skyhook-mono/regular/)
-- futurisic monospace font
+- futurisic monospace font, regular size is free
 - now corrected monospace bit with **ttx** from python pip fonttools 
   in order to be directly selectable in MobaXTerm et al (w/o detour "allow selection of variable pitch fonts")
 
 
-#### Vintage IBM fonts
+#### [Vintage IBM fonts](http://int10h.org/oldschool-pc-fonts/)
 
 - I believe these are still superior to [IBM Plex Mono](https://github.com/IBM/plex), especially at small sizes. 
 - bitmap fonts in TTF format, pixel sharp, must be selected as (nominally) 12pt
@@ -46,35 +52,39 @@ some modified monospace fonts for my personal use
 - to do for later: "unbreak" the pipe symbol
 
 *characteristics*
-- IBM PS/2 thin2 has smaller-than-usual numerals (compare CamingoCode font) and feels quite technical.
-- IBM PS/2 thin4 and the somewhat larger IBM ISO 9 seem like very good allround fonts.
+- IBM PS/2 thin2: smaller-than-usual numerals (compare CamingoCode font) and feels quite technical.
+- IBM PS/2 thin4: good allround font
+- IBM ISO 9: good allround font
 
 not yet modified
 - IBM PS/2 thin1 is a serif font with a relaxed feel and large i dots
 - IBM PS/2 thin3 is a quadra-style font with a scifi / retro future feel
 
 ### Serif Monospace
+- from http://int10h.org/oldschool-pc-fonts/ 
+- only usable at nominally 12pt
+- pixel sharp bitmap fonts as .ttf files
 
 Px437 Compaq 8x16
-- from http://int10h.org/oldschool-pc-fonts/
+- good narrow allround mono serif font
 - added Euro sign and some turkish characters: dotless i, capital dotted I, soft g
 
 Px437 ToshibaLCD
 - slim and very clear
-- this is a bitmap font, only good at 12pt
 
 *other serif monospace suggestions:* 
 - Px437 IBM Thin1 (not yet modified) 
 - PT Mono (quite complete already, wide range of pixel sharp small sizes)
 
-#### font sizes for comparison
+#### Bitmap fonts in .ttf format
 
 
-| font @ "12px"        | rough reference size            | serif | zero    |  
-| -------------------- | ------------------------------- | ----- | ------- |
-| Px437 IBM ISO 9      | Bitstream Vera Sans Mono 11     |  no   | dotted  |
-| Px437 IBM PS2 thin2  | Bitstream Vera Sans Mono 10     |  no   | dotted  |
-| Px437 IBM PS2 thin4  | Bitstream Vera Sans Mono 10     |  no   | slashed |
-| GNU Unifont          | < PragmataPro 11                |  no   | slashed |
-| Px437 Compaq 8x16    | PT Mono 10                      |  yes  | dotted  |
-| Px437 Toshiba LCD    | PT Mono 10	                 |  yes  | slashed |
+| font                 | *must* be set to size | rough equivalent   | serif | zero    | "feel"    |  
+| -------------------- | --------------------- | ------------------ |------ | ------- |---------- |
+| Envy Code B 10pt     | 10                    | Dina 9             |  no   | slashed | allround  |
+| Px437 IBM ISO 9      | 12                    | Raize 12           |  no   | dotted  | allround  |
+| Px437 IBM PS2 thin2  | 12                    | Camingo Code 1     |  no   | dotted  | technical |
+| Px437 IBM PS2 thin4  | 12                    | Raize 11           |  no   | slashed | allround  |
+| GNU Unifont          | 12                    | PragmataPro 10-11  |  no   | slashed | clean     |
+| Px437 Compaq 8x16    | 12                    | PT Mono 10         |  yes  | dotted  | laid back |
+| Px437 Toshiba LCD    | 12                    | Go Mono 10	    |  yes  | slashed | ambitious |
