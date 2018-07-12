@@ -59,10 +59,13 @@ some modified fonts for my personal use
 Px437 Compaq 8x16
 - from http://int10h.org/oldschool-pc-fonts/
 - added Euro sign and some turkish characters: dotless i, capital dotted I, soft g
+
+Px437 ToshibaLCD
+- slim and very clear
 - this is a bitmap font, only good at 12pt
 
 *other serif monospace suggestions:* 
-- Px437 ToshibaLCD, Px437 IBM Thin1 (both not yet modified), 
+- Px437 IBM Thin1 (not yet modified) 
 - PT Mono (quite complete already, wide range of pixel sharp small sizes)
 
 #### font sizes for comparison
