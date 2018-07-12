@@ -16,7 +16,7 @@ some modified monospace fonts for my personal use
 | -------------------- | --------------------- | ------------------ |------ | ------- |---------- |
 | Envy Code B 10pt     | 10                    | Dina 9             |  no   | slashed | allround  |
 | Px437 IBM ISO 9      | 12                    | Raize 12           |  no   | dotted  | allround  |
-| Px437 IBM PS2 thin2  | 12                    | Camingo Code 1     |  no   | dotted  | technical |
+| Px437 IBM PS2 thin2  | 12                    | Camingo Code 11    |  no   | dotted  | technical |
 | Px437 IBM PS2 thin4  | 12                    | Raize 11           |  no   | slashed | allround  |
 | GNU Unifont          | 12                    | Liberation Mono 11 |  no   | slashed | clean     |
 | Px437 Compaq 8x16    | 12                    | PT Mono 10         |  yes  | dotted  | laid back |
@@ -42,7 +42,7 @@ some modified monospace fonts for my personal use
 - GNU Unifont's only size fits right into PragmataPro's larger than usual size step between 10 and 11 pixels.
 - PragmataPro has a larger i-dot. smaller line spacing and it seems stretched by one pixel compared with GNU Unifont.
 - [Luculent](http://eastfarthing.com/luculent/) also has the large i-dot, is also pixel sharp between 7 and 14px and includes zodiac signs and [sparklines](https://aur.archlinux.org/packages/sparklines-git/).
-- By the slight stretching, PragmataPro feels more refined."designed". Personally, I prefer GNU Unifont most of the time.
+- By the slight stretching, PragmataPro feels more refined/"designed". Personally, I prefer GNU Unifont most of the time.
   I like the feel, but surprisingly I like the feel of GNU Unicode better. 
 - GNU Unifont supports east asian characters, unlike PragmataPro.
 - [Iosevka](https://be5invis.github.io/Iosevka/) is an agreeable Pragmata Pro replacement for antialiased rendering.
@@ -76,6 +76,19 @@ some modified monospace fonts for my personal use
 - to do for later: "unbreak" the pipe symbol
 - IBM now offers [IBM Plex Mono](https://github.com/IBM/plex), but this is good only from 14pt upwards. Currently I still prefer the old ones.
 
+
+#### other sans-serif monospace pixel font suggestions
+
+- [Tamsyn](http://www.fial.com/~scott/tamsyn-font/)
+  - Tamsyn 10x20 has that futuristic "square" feel of quadra-style fonts like [White Rabbit](https://www.dafont.com/white-rabbit.font], [Earth 2073](https://www.dafont.com/earth-2073.font) or [Otonokizaka Mono II](https://fontstruct.com/fontstructions/show/1399210/otonokizaka-std-ii-1) or maybe Lekton but while being pixel sharp. 
+    The jagged "s" might feel nervous or energetic. 
+  - Tamsyn 7x14 is quite comparable with Dina 8 but feels more strained.
+  - Tamsyn 7x13 is a quite small font that still feels relaxed
+- [Raize](http://www.raize.com/DevTools/Tools/RzFont.asp). I like 12px best. Can feel a little edgy, which goes away in low contrast settings.
+- [Dina](http://www.dcmembers.com/jibsen/download/61/) quite lively in all sizes
+- [Triskeline](http://www.netalive.org/tinkering/triskweline/) quite small, calm and broad
+- [Luculent](http://eastfarthing.com/luculent/) is quite narrow, has a large dotted i and a wide range of characters, as well as sizes between 7 and 14px.
+- [Sheldon narrow](https://web.archive.org/web/20170203072652/http://tobiasjung.name/profont/index.php) (a ProFont replacement by Sheldon Simms) and the more widely spaced Sheldon. 
 
 ### vintage serif monospace fonts
 - pixel sharp bitmap fonts as .ttf files, only useable at 12pt
