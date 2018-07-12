@@ -1,18 +1,12 @@
-some modified fonts for my personal use
+some modified monospace fonts for my personal use
 ------------------------------------
 
-- adding a distinguishable zero
-- adding the Euro sign
-- etc
+- added a slashed zero to GNU Unifont
+- added euro signs and some CE characters to some classic DOS / BIOS fonts
+- added dotted zero to Lekton
+- set missing monospace flag for Skyhook Mono
 
-
-### Monospace Fonts
-
-
-- added a slashed zero to **GNU Unifont**
-  https://en.wikipedia.org/wiki/GNU_Unifont
-  http://www.unifoundry.com/unifont.html
-#### GNU Unifont 
+#### [GNU Unifont](http://www.unifoundry.com/unifont.html) 
 - GNU Unifont is a bitmap font, only good at 12Px. On the original page, Unix Bitmap formats are also available. I haven't modified these.
 - looks like it inspired commercial font **PragmataPro**, although I haven't seen it acknowledged ... 
   this would be a real GPL issue anyway, especially as it is one of the most expensive fonts available
@@ -33,26 +27,31 @@ some modified fonts for my personal use
   - now select "Unifont", size 12  
    
 
-#### Lekton
-- http://luc.devroye.org/fonts-43679.html
+#### [Lekton](http://luc.devroye.org/fonts-43679.html)
 - has a similar feel to **Ubuntu Mono** or maybe **Share Tech Mono** and **Klartext Mono**
-- I've added a dotted zero.
+- now with dotted zero.
+- to be done: set correct monospace flag
  
-#### Skyhook
+#### [Skyhook Mono Regular](https://www.myfonts.com/fonts/fontom-type/skyhook-mono/regular/)
 - futurisic monospace font
-- now converted to "real monospace" with ttx from python pip fonttools 
+- now corrected monospace bit with **ttx** from python pip fonttools 
   in order to be directly selectable in MobaXTerm et al (w/o detour "allow selection of variable pitch fonts")
 
-### [Px series](http://int10h.org/oldschool-pc-fonts/) vintage IBM fonts
+
+#### Vintage IBM fonts
+
 - I believe these are still superior to [IBM Plex Mono](https://github.com/IBM/plex), especially at small sizes. 
-- These are pixel sharp bitmap fonts in TTF format and are only good at 12pt
-- modification done: added Euro signs to **IBM ISO9**, **IBM PS/2 thin2** and **IBM PS/2 thin4** 
-- intended modification for later: "unbreak" the pipe symbol
+- bitmap fonts in TTF format, pixel sharp, must be selected as (nominally) 12pt
+- modded: added Euro sign and some turkish characters 
+- to do for later: "unbreak" the pipe symbol
 
 *characteristics*
-- IBM PS/2 thin2 has smaller numerals, (compare e.g. CamingoCode) and a dotted zero.
-- IBM PS/2 thin4 has conventinally sized numerals and slashed zero. 
-- IBM ISO 9 is somewhat larger and has a dotted zero.
+- IBM PS/2 thin2 has smaller-than-usual numerals (compare CamingoCode font) and feels quite technical.
+- IBM PS/2 thin4 and the somewhat larger IBM ISO 9 seem like very good allround fonts.
+
+not yet modified
+- IBM PS/2 thin1 is a serif font with a relaxed feel and large i dots
+- IBM PS/2 thin3 is a quadra-style font with a scifi / retro future feel
 
 ### Serif Monospace
 
