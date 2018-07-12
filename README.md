@@ -88,13 +88,16 @@ some modified monospace fonts for my personal use
 
 #### other serif monospace suggestions
 
+- [PT Mono](https://www.fontsquirrel.com/fonts/list/foundry/paratype) by Paratype (includes cyrillic and greek, has wide range of pixel sharp small sizes)
 - [Px437 IBM Thin1](http://int10h.org/oldschool-pc-fonts/) (relaxed feel, not yet modified) 
 - [Go Mono](https://blog.golang.org/go-fonts) (quite slim, needs anti-aliasing)
 - [Nimbus Mono](https://www.fontsquirrel.com/fonts/nimbus-mono) (somehow, this one calms me down)
 - [Selectric](https://www.dafont.com/selectric.font) by Paradox (has nonslashed but distinguishable zero)
 - [Damien Typewriter](http://2ttf.com/UjZ3WtVC) by DamienG (the Comic Sans of terminal fonts...)
-- [PT Mono]py Paratype (https://www.fontsquirrel.com/fonts/list/foundry/paratype) (includes cyrillic and greek, has wide range of pixel sharp small sizes)
-- various vintage typewriter fonts by [Lukas Krakora](https://www.dafont.com/lukas-krakora.d1281) and [Peter Wiegel](https://www.dafont.com/peter-wiegel.d689),
+- various **vintage typewriter fonts** by [Lukas Krakora](https://www.dafont.com/lukas-krakora.d1281) and [Peter Wiegel](https://www.dafont.com/peter-wiegel.d689)
+  e.g. [Erica Type](https://www.1001fonts.com/erica-type-font.html) and [Oceanside Typewriter](https://www.dafont.com/oceanside-typewriter.font)
+
+
   
 
 ### HOWTO: Using "variable width fonts" in Putty / MobaXTerm
