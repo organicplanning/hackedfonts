@@ -68,11 +68,11 @@ Px437 Compaq 8x16
 #### font sizes for comparison
 
 
-| font @ "12px"        | rough reference size            | serif |  
-| -------------------- | ------------------------------- | ----- |
-| Px437 IBM ISO    9   | Bitstream Vera Sans Mono 11     |  no   |
-| Px437 IBM PS2 thin2  | Bitstream Vera Sans Mono 10     |  no   |
-| Px437 IBM PS2 thin4  | Bitstream Vera Sans Mono 10     |  no   |
-| GNU Unifont          | Ubuntu Mono 12                  |  no   |
-| Px437 Compaq 8x16    | Ubuntu Mono 11                  |  yes  |
-| Px437 Toshiba LCD    | Ubuntu Mono 11	                 |  yes  |
+| font @ "12px"        | rough reference size            | serif | zero    |  
+| -------------------- | ------------------------------- | ----- | ------- |
+| Px437 IBM ISO 9      | Bitstream Vera Sans Mono 11     |  no   | dotted  |
+| Px437 IBM PS2 thin2  | Bitstream Vera Sans Mono 10     |  no   | dotted  |
+| Px437 IBM PS2 thin4  | Bitstream Vera Sans Mono 10     |  no   | slashed |
+| GNU Unifont          | < PragmataPro 11                |  no   | slashed |
+| Px437 Compaq 8x16    | PT Mono 10                      |  yes  | dotted  |
+| Px437 Toshiba LCD    | PT Mono 10	                 |  yes  | slashed |
