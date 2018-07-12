@@ -34,10 +34,11 @@ some modified monospace fonts for my personal use
 - Probably to *extreme range of characters*, conversion to "real monospace" with python fonttools ttx has failed so far.
 - this is why it has to be selected as a variable pitch font, see below for howto.
  
-Trivia
-- looks like it inspired commercial font **PragmataPro**, although I haven't seen it acknowledged ... 
-  this would be a real GPL issue anyway, especially as it is one of the most expensive fonts available
-  and the "author" even tried to raise money to "make it public domain."
+**Trivia**
+- Personally I have a strong feeling that GNU Unifont "inspired" commercial font **PragmataPro**, although I haven't seen it acknowledged ... 
+- this would be a real GPL issue anyway, especially as it is one of the most expensive fonts available
+  and the author even tried to raise money to "make it public domain."
+- Pragmata Pro was real hard work with all those pixel sizes for sure, but if you want to get your efforts financially compensated, don't start with GPL.
 - He'll probably get away with it because he stretched the font vertically by one pixel, so it's "really different". Actually, it feels more "designed" then.
 - Compared with GNU Unifont, Pragmata Pro has better visibility for the i-dot, quite comparable with [Luculent](http://eastfarthing.com/luculent/).
 - Pragmata Pro has real merit for adding a variety of sharp pixel sizes to the 12px-only Unifont.
@@ -48,9 +49,9 @@ Trivia
 
    
 
-### [Envy Code B 10 ttf](https://damieng.com/typography/envy-code-b)
-
-- a bit like [Dina 9](http://www.dcmembers.com/jibsen/download/61/)
+#### [Envy Code B 10 ttf](https://damieng.com/typography/envy-code-b)
+- by DamienG who has a lot more to offer (e.g. the excellent [DamienTypewriter](http://2ttf.com/UjZ3WtVC))
+- a bit like the also very useable [Dina 9](http://www.dcmembers.com/jibsen/download/61/)
   but with larger line spacing which can ce good sometimes.
 - now added turkish characters dotless i, capital dotted I and soft g
 
@@ -60,42 +61,40 @@ Trivia
 - still to be done: setting correct monospace flag with ttx
  
 #### [Skyhook Mono Regular](https://www.myfonts.com/fonts/fontom-type/skyhook-mono/regular/)
-- futurisic monospace font, regular size is free
-- now corrected monospace bit with **ttx** from python pip fonttools 
-  in order to be directly selectable in MobaXTerm et al (w/o detour "allow selection of variable pitch fonts")
+- futurisic monospace font, regular size is free, other styles available as paid offers
+- had to correct the monospace bit with **ttx** from python pip fonttools to be able to use the font w/o workarounds.
+- Personally I would prefer it when the author just sets the bit himself, after all it's supposed to be professional.
+- I might not actually be allowed to offer it here. Fix it and I take it down.
 
 
 #### [Vintage IBM fonts](http://int10h.org/oldschool-pc-fonts/)
-
-- I believe these are still superior to [IBM Plex Mono](https://github.com/IBM/plex), especially at small sizes. 
-- bitmap fonts in TTF format, pixel sharp, must be selected as (nominally) 12pt
+- pixel sharp bitmap fonts as .ttf files, only useable at 12pt
 - modded: added Euro sign and some turkish characters 
 - to do for later: "unbreak" the pipe symbol
+- IBM now offers [IBM Plex Mono](https://github.com/IBM/plex), but this is good only from 14pt upwards. Currently I still prefer the old ones.
 
-*characteristics*
-- IBM PS/2 thin2: smaller-than-usual numerals (compare CamingoCode font) and feels quite technical.
-- IBM PS/2 thin4: good allround font
-- IBM ISO 9: good allround font
 
-not yet modified
-- IBM PS/2 thin1 is a serif font with a relaxed feel and large i dots
-- IBM PS/2 thin3 is a quadra-style font with a scifi / retro future feel
-
-### Serif Monospace
+'### vintage serif monospace fonts
+- pixel sharp bitmap fonts as .ttf files, only useable at 12pt
 - from http://int10h.org/oldschool-pc-fonts/ 
-- only usable at nominally 12pt
-- pixel sharp bitmap fonts as .ttf files
 
-Px437 Compaq 8x16
+### Px437 Compaq 8x16
 - good narrow allround mono serif font
 - added Euro sign and some turkish characters: dotless i, capital dotted I, soft g
 
-Px437 ToshibaLCD
+### Px437 ToshibaLCD
 - slim and very clear
 
-*other serif monospace suggestions:* 
-- Px437 IBM Thin1 (not yet modified) 
-- PT Mono (quite complete already, wide range of pixel sharp small sizes)
+#### other serif monospace suggestions
+
+- [Px437 IBM Thin1](http://int10h.org/oldschool-pc-fonts/) (relaxed feel, not yet modified) 
+- [Go Mono](https://blog.golang.org/go-fonts) (quite slim, needs anti-aliasing)
+- [Nimbus Mono](https://www.fontsquirrel.com/fonts/nimbus-mono) (somehow, this one calms me down)
+- [Selectric](https://www.dafont.com/selectric.font) by Paradox (has nonslashed but distinguishable zero)
+- [Damien Typewriter](http://2ttf.com/UjZ3WtVC) by DamienG (the Comic Sans of terminal fonts...)
+- [PT Mono]py Paratype (https://www.fontsquirrel.com/fonts/list/foundry/paratype) (includes cyrillic and greek, has wide range of pixel sharp small sizes)
+- various vintage typewriter fonts by [Lukas Krakora](https://www.dafont.com/lukas-krakora.d1281) and [Peter Wiegel](https://www.dafont.com/peter-wiegel.d689),
+  
 
 ### HOWTO: Using "variable width fonts" in Putty / MobaXTerm
 
