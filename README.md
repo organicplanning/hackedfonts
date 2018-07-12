@@ -51,10 +51,11 @@ some modified monospace fonts for my personal use
    
 
 #### [Envy Code B 10 ttf](https://damieng.com/typography/envy-code-b)
-- by DamienG who has a lot more to offer (e.g. the excellent [DamienTypewriter](http://2ttf.com/UjZ3WtVC))
 - a bit like the also very useable [Dina 9](http://www.dcmembers.com/jibsen/download/61/)
-  but with larger line spacing which can ce good sometimes.
+  but with larger line spacing which can be good sometimes.
+- by DamienG who has a lot more to offer (e.g. [8-bit retro fonts](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts) and the cheerful [DamienTypewriter](http://2ttf.com/UjZ3WtVC))
 - now added turkish characters dotless i, capital dotted I and soft g
+- have not modified the .fon version yet
 
 #### [Lekton](http://luc.devroye.org/fonts-43679.html)
 - has a similar feel to **Ubuntu Mono** or maybe **Share Tech Mono** and **Klartext Mono**
