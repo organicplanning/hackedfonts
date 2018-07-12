@@ -5,10 +5,11 @@ some modified monospace fonts for my personal use
 
 - added a slashed zero to [GNU Unifont](http://www.unifoundry.com/unifont.html)
 - added euro signs and some CE characters to some [classic DOS / BIOS fonts](http://int10h.org/oldschool-pc-fonts/)
+- added some CE characters to [Envy Code B 10pt TTF](https://damieng.com/typography/envy-code-b)
 - added dotted zero to [Lekton](http://luc.devroye.org/fonts-43679.html)
 - set missing monospace flag for [Skyhook Mono](https://www.myfonts.com/fonts/fontom-type/skyhook-mono/regular/)
 
-### table of bitmap fonts in .ttf format
+#### table of bitmap fonts in .ttf format
 
 
 | font                 | *must* be set to size | rough equivalent   | serif | zero    | "feel"    |  
@@ -76,15 +77,15 @@ some modified monospace fonts for my personal use
 - IBM now offers [IBM Plex Mono](https://github.com/IBM/plex), but this is good only from 14pt upwards. Currently I still prefer the old ones.
 
 
-'### vintage serif monospace fonts
+### vintage serif monospace fonts
 - pixel sharp bitmap fonts as .ttf files, only useable at 12pt
 - from http://int10h.org/oldschool-pc-fonts/ 
 
-### Px437 Compaq 8x16
+#### Px437 Compaq 8x16
 - good narrow allround mono serif font
 - added Euro sign and some turkish characters: dotless i, capital dotted I, soft g
 
-### Px437 ToshibaLCD
+#### Px437 ToshibaLCD
 - slim and very clear
 
 #### other serif monospace suggestions
