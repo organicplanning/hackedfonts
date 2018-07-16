@@ -79,7 +79,15 @@ some modified monospace fonts for my personal use
 
 #### [fn0t](https://www.dafontfree.net/freefonts-fn0t-f99496.htm) 
 - fancy / futuristic monospace font
+- smaller in actual size than point size would suggest
 - now with correct monospace flag
+- zero not yet distinguished from vowel o
+
+#### [fs-regulate](https://fontstruct.com/fontstructions/show/947828/fs_regulate)
+- nice ornamental font
+- smaller in actual size than point size would suggest
+- I like this one for headers in org-mode, e.g.
+- Euro sign not implemented yet
 
 #### [Vintage IBM fonts](http://int10h.org/oldschool-pc-fonts/)
 - pixel sharp bitmap fonts as .ttf files, only useable at 12pt
