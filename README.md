@@ -6,8 +6,10 @@ some modified monospace fonts for my personal use
 - added a slashed zero to [GNU Unifont](http://www.unifoundry.com/unifont.html)
 - added euro signs and some CE characters to some [classic DOS / BIOS fonts](http://int10h.org/oldschool-pc-fonts/)
 - added some CE characters to [Envy Code B 10pt TTF](https://damieng.com/typography/envy-code-b)
-- added dotted zero to [Lekton](http://luc.devroye.org/fonts-43679.html)
+- added dotted zero and missing monospace flag to [Lekton](http://luc.devroye.org/fonts-43679.html)
 - set missing monospace flag for [Skyhook Mono](https://www.myfonts.com/fonts/fontom-type/skyhook-mono/regular/)
+- added missing monospace flag to [fs-regulate](https://fontstruct.com/fontstructions/show/947828/fs_regulate), 
+  [fn0t](https://www.dafontfree.net/freefonts-fn0t-f99496.htm) and [Generic Mono II](http://luc.devroye.org/fonts-75172.html).
 
 #### table of bitmap fonts in .ttf format
 
@@ -53,14 +55,17 @@ some modified monospace fonts for my personal use
 #### [Envy Code B 10 ttf](https://damieng.com/typography/envy-code-b)
 - a bit like the also very useable [Dina 9](http://www.dcmembers.com/jibsen/download/61/)
   but with larger line spacing which can be good sometimes.
-- by DamienG who has a lot more to offer (e.g. [8-bit retro fonts](https://damieng.com/blog/2011/02/20/typography-in-8-bits-system-fonts) and the cheerful [DamienTypewriter](http://2ttf.com/UjZ3WtVC))
 - now added turkish characters dotless i, capital dotted I and soft g
-- have not modified the .fon version yet
+
+#### [Generic Mono II](http://luc.devroye.org/fonts-75172.html)
+- sans-serif monospace font in the vein of Vera, with a friendly feel
+- zero slash has lower angle than most
+- now with corrected monospace bit (done with ttx)
 
 #### [Lekton](http://luc.devroye.org/fonts-43679.html)
 - has a similar feel to **Ubuntu Mono** or maybe **Share Tech Mono** and **Klartext Mono**
 - now with dotted zero in order to distinguish letter oh and number zero
-- still to be done: setting correct monospace flag with ttx
+- also done: setting correct monospace flag with ttx
  
 #### [Skyhook Mono Regular](https://www.myfonts.com/fonts/fontom-type/skyhook-mono/regular/)
 - futurisic monospace font, regular size is free, other styles available as paid offers
@@ -68,6 +73,9 @@ some modified monospace fonts for my personal use
 - Personally I would prefer it when the author just sets the bit himself, after all it's supposed to be professional.
 - I might not actually be allowed to offer it here. Fix it and I take it down.
 
+#### [fn0t](https://www.dafontfree.net/freefonts-fn0t-f99496.htm) 
+- fancy / futuristic monospace font
+- now with correct monospace flag
 
 #### [Vintage IBM fonts](http://int10h.org/oldschool-pc-fonts/)
 - pixel sharp bitmap fonts as .ttf files, only useable at 12pt
