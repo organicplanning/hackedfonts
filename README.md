@@ -29,6 +29,10 @@ some modified monospace fonts for my personal use
 | -------------------- | ---------------- | ------- |----------- |
 | Lekton               | Ubuntu Mono      | dotted  | fancy      |
 | Skyhook Mono         | Tamsyn 10x20     | slashed | futuristic |                  
+| Generic Mono II      | Bitstream Vera   | slashed | clear      |                  
+| fn0t		       | Skyhook Mono	  | (not distinguished)	| fancy	|
+| fs-regulate	       | Quinze, AD Mono  | dotted | ornamental  |			 		   	
+
 
 #### [GNU Unifont](http://www.unifoundry.com/unifont.html) 
 - GNU Unifont is a bitmap font with wide Unicode coverage, only good at (nominally) 12px. 
