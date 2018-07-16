@@ -80,15 +80,15 @@ some modified monospace fonts for my personal use
 #### [fn0t](https://www.dafontfree.net/freefonts-fn0t-f99496.htm) 
 - fancy / futuristic monospace font
 - smaller in actual size than point size would suggest
-- now with correct monospace flag in ttx. However, this doesn't seem to be enough for MobaXterm
+- now with monospace flag in ttx. However, this doesn't seem to be enough for MobaXterm
 - zero not yet distinguished from vowel o
 
 #### [fs-regulate](https://fontstruct.com/fontstructions/show/947828/fs_regulate)
 - nice ornamental font
 - smaller in actual size than point size would suggest
 - I like this one for headers in org-mode, e.g.
-- Euro sign not implemented yet
-- now with correct monospace flag in ttx. However, this doesn't seem to be enough for MobaXterm
+- added Euro sign
+- now with correct monospace flag in ttx and FontForge 
 
 
 #### [Vintage IBM fonts](http://int10h.org/oldschool-pc-fonts/)
