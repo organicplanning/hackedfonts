@@ -88,6 +88,8 @@ some modified monospace fonts for my personal use
 - smaller in actual size than point size would suggest
 - I like this one for headers in org-mode, e.g.
 - Euro sign not implemented yet
+- now with corrected monospace bit (done with ttx)
+
 
 #### [Vintage IBM fonts](http://int10h.org/oldschool-pc-fonts/)
 - pixel sharp bitmap fonts as .ttf files, only useable at 12pt
