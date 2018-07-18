@@ -46,13 +46,16 @@ some modified monospace fonts for my personal use
 - this would be a real GPL issue anyway, especially as it is one of the most expensive fonts available.
   and the author even tried to raise money to "make it public domain." 
 - GNU Unifont's only size fits right into PragmataPro's larger than usual size step between 10 and 11 pixels.
+- [Liberation Mono](https://www.fontsquirrel.com/fonts/Liberation-Mono) by RedHat is a little broader, but has a similar feel to GNU Unifont. It is not fixed to one size.
 - PragmataPro has a larger i-dot. smaller line spacing and it seems stretched by one pixel compared with GNU Unifont.
 - [Luculent](http://eastfarthing.com/luculent/) also has the large i-dot, is also pixel sharp between 7 and 14px and includes zodiac signs and [sparklines](https://aur.archlinux.org/packages/sparklines-git/).
 - By the slight stretching, PragmataPro feels more refined/"designed". Personally, I prefer GNU Unifont most of the time.
   I like the feel, but surprisingly I like the feel of GNU Unicode better. 
 - GNU Unifont supports east asian characters, unlike PragmataPro.
 - [Iosevka](https://be5invis.github.io/Iosevka/) is an agreeable Pragmata Pro replacement for antialiased rendering.
-- [Liberation Mono](https://www.fontsquirrel.com/fonts/Liberation-Mono) by RedHat is a little broader, but has a similar feel to GNU Unifont.
+- [Input Mono](http://input.fontbureau.com/) has a similar feel to Pragmata Pro, but is available for free in many widths and thicknesses
+- [Anka/Coder narrow](https://fontlibrary.org/de/search?query=anka%2Fcoder) from 14pt upward with anti-aliasing, I like Anka/Coder Narrow a lot.
+
 
    
 
