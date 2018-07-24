@@ -10,7 +10,7 @@ some modified monospace fonts for my personal use
 - set missing monospace flag for [Skyhook Mono](https://www.myfonts.com/fonts/fontom-type/skyhook-mono/regular/)
 - added missing monospace flag to [fs-regulate](https://fontstruct.com/fontstructions/show/947828/fs_regulate), 
   [fn0t](https://www.dafontfree.net/freefonts-fn0t-f99496.htm) and [Generic Mono II](http://luc.devroye.org/fonts-75172.html).
-
+- corrected "corrupt"underscore in [Verily Serif Mono](https://www.fontsquirrel.com/fonts/Verily-Serif-Mono)
 #### table of bitmap fonts in .ttf format
 
 
@@ -53,7 +53,7 @@ some modified monospace fonts for my personal use
   I like the feel, but surprisingly I like the feel of GNU Unicode better. 
 - GNU Unifont supports east asian characters, unlike PragmataPro.
 - [Iosevka](https://be5invis.github.io/Iosevka/) is an agreeable Pragmata Pro replacement for antialiased rendering.
-- [Input Mono](http://input.fontbureau.com/) has a similar feel to Pragmata Pro, but is available for free in many widths and thicknesses
+- [Input Mono](http://input.fontbureau.com/) has a similar feel to Pragmata Pro, but is available for free in many widths and thicknesses. Input Font Family can also be customized in letterforms, line height, dotted / slashed / unmarked zero etc. http://input.fontbureau.com/preview
 - [Anka/Coder narrow](https://fontlibrary.org/de/search?query=anka%2Fcoder) from 14pt upward with anti-aliasing, I like Anka/Coder Narrow a lot.
 
 
@@ -113,7 +113,13 @@ some modified monospace fonts for my personal use
 #### Px437 ToshibaLCD
 - slim and very clear
 
- 
+
+####  [Verily Serif Mono](https://www.fontsquirrel.com/fonts/verily-serif-mono) 
+- derived from Bitstream Vera Serif (proportional). 
+- best used @ 16pt with antialiasing
+- now with corrected underscore, original was miles below visible range
+- not unlike the excellent Panama Monospace (which lacks distinguished zero and is proprietary)
+
 
 ### HOWTO: Using "variable width fonts" in Putty / MobaXTerm
 
@@ -158,6 +164,7 @@ due to missing flags, some fonts are **not listed as monospace fonts**, meaning 
   - Luculent 7 is surprisingly readable for the size (smaller than Dina 6) though feeling a little strained.
 - [Sheldon Narrow](https://web.archive.org/web/20170203072652/http://tobiasjung.name/profont/index.php) (a ProFont replacement by Sheldon Simms) and especially the more widely spaced **Sheldon** are very small but quite readable and good for side-by-side comparison of code.
 - [zevv-peep](http://zevv.nl/play/code/zevv-peep/): both beautiful and good to read though sadly lacking character range. Somewhere between Luculent and Ubuntu Mono / Lekton. Listed as "peep" in font list.
+- Minglan Code has great pixel sharp sizes together with extreme Unicode ranges. https://en.m.fontke.com/font/10245073/download/?fromlang=en
 
 #### other serif monospace suggestions
 
@@ -166,14 +173,19 @@ due to missing flags, some fonts are **not listed as monospace fonts**, meaning 
 - [PT Mono](https://www.fontsquirrel.com/fonts/list/foundry/paratype) by Paratype: Medium width serif font that has wide range of pixel sharp small sizes and includes cyrillic and greek
 - [Px437 IBM Thin1](http://int10h.org/oldschool-pc-fonts/) (relaxed feel, not yet modified) 
 - [Nimbus Mono](https://www.fontsquirrel.com/fonts/nimbus-mono) somehow, this one calms me down. Broad and thin. pixel sharp in 14px
+- [Rursus compact mono](https://fontlibrary.org/en/font/rursus-compact-mono) robust medium-with typewriter that feels "handmade". 
+  needs anti-aliasing (not cleartype) and preferably larger sizes from 15pt upward, but has nice range and feel
+- [Libertinus Mono](https://github.com/libertinus-fonts/libertinus) more typewriter-like than PT Mono. Pixel sharp in 11pt 
 
 #### needing anti-aliasing
 
-- [Go Mono](https://blog.golang.org/go-fonts): quite narrow, needs anti-aliasing
-- [Luxi Mono](https://www.fontsquirrel.com/fonts/Luxi-Mono): not bad but lacks zero-oh distinction.
-- [Selectric](https://www.dafont.com/selectric.font) by Paradox: Very good Courier replacement. Has nonslashed but distinguishable zero.
-- [Courier Prime Code](https://www.fontsquirrel.com/fonts/courier-prime-code). West coast calm but needs anti-aliasing.
-- [Damien Typewriter](http://2ttf.com/UjZ3WtVC) by DamienG: the Comic Sans of terminal fonts... could use some additional characters.
-- various **vintage typewriter fonts** by [Lukas Krakora](https://www.dafont.com/lukas-krakora.d1281) and [Peter Wiegel](https://www.dafont.com/peter-wiegel.d689)
-  e.g. [Erica Type](https://www.1001fonts.com/erica-type-font.html) and [Oceanside Typewriter](https://www.dafont.com/oceanside-typewriter.font)
+- [Go Mono](https://blog.golang.org/go-fonts): quite narrow, needs anti-aliasing 
+- [Luxi Mono](https://www.fontsquirrel.com/fonts/Luxi-Mono): not bad but lacks zero-oh distinction. maybe use my corrected version of Verily Serif Mono instead.
+- [Selectric](https://www.dafont.com/selectric.font) by Paradox: Very good Courier replacement. Has nonslashed but distinguishable zero. 
+- [Courier Prime Code](https://www.fontsquirrel.com/fonts/courier-prime-code). West coast calm but needs anti-aliasing. 
+- [Panama Monospace](http://typefaces.temporarystate.net/buy/) slim, elegant proprietary font, yet without distinguished zero
+- [Damien Typewriter](http://2ttf.com/UjZ3WtVC) by DamienG: the Comic Sans of terminal fonts... could use some additional characters. -
+ various **vintage typewriter fonts** by [Lukas Krakora](https://www.dafont.com/lukas-krakora.d1281) and [Peter 
+Wiegel](https://www.dafont.com/peter-wiegel.d689)  e.g. [Erica Type](https://www.1001fonts.com/erica-type-font.html) 
+and [Oceanside Typewriter](https://www.dafont.com/oceanside-typewriter.font)
 
